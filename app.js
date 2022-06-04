@@ -1,5 +1,10 @@
 //jshint esversion: 6
 
+import {
+    ID,
+    API,
+} from "./secrets";
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -32,7 +37,7 @@ app.post("/", (req, res) => {
         ]
     }
     const jsonData = JSON.stringify(data)
-    const url = "https://us14.api.mailchimp.com/3.0/lists/8aad1130e8"
+    const url = API
 
 const options = {
     method: "POST",
@@ -64,10 +69,3 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Estamos na maloca. 3000");
 });
 
-
-
-//API KEY
-//869c8fbbdd9031fae6900164b1e6d696-us14
-
-//List ID
-// 8aad1130e8

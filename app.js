@@ -41,7 +41,7 @@ app.post("/", (req, res) => {
 
 const options = {
     method: "POST",
-    auth: "dog1:869c8fbbdd9031fae6900164b1e6d696-us14"
+    auth: API
 }
 
 const request = https.request(url, options, function (response) {

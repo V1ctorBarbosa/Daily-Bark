@@ -1,7 +1,7 @@
 # Daily Bark
 
-Newsletter project made with NodeJS
-The campaign with the emails is done through the <a href="https://mailchimp.com/"> mailchimp API<a/>
+#### - Newsletter project made with NodeJS
+#### - The campaign with the emails is done through the <a href="https://mailchimp.com/"> mailchimp API<a/>
 
 <img src="https://user-images.githubusercontent.com/101783823/171972114-8db185f8-3777-4381-bbfc-96a68ec3a449.png">
   
